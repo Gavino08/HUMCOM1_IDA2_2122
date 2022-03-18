@@ -1,0 +1,87 @@
+<!DOCTYPE html> 										
+<html lang="eng">													
+<head>
+	<title>FORM</title>	
+    <meta charset="UTF-8">	
+    <meta name="description" content="Form">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Jason Spencer Gavino">	
+</head>
+<body style="background-color:RGB(247, 202, 201)">
+
+<h2 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Registration Form!</h2>
+<h3 style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Gavino, Jason Spencer M</h3>
+<h3>Fields Marked (:) are required </h3>
+
+<form>
+    <fieldset>
+    <legend>YOUR DETAILS</legend>
+    <label for="Fname">Firts name:</label> 
+    <input type="text" id="Fname" name="Fname" autocomplete="off" required><br><br>
+    <label for="Lname">Last Name:</label>
+    <input type="text" id="Lname" name="Lname" autocomplete="off" required><br><br>
+    <label for="Email">Email:</label>
+    <input type="Email" id="Email" name="Email" autocomplete="off" required><br><br>
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone" min="12" maxlength="16" autocomplete="off" required><br><br>
+    <label for="Birthday">Birthday:</label>
+    <input type="date" id="birthday" name="Birthday" autocomplete="off" required><br><br>
+    <label for="Sex">Sex:</label>
+    <input type="radio" name="sex" value="male"/>male<br> 
+    <input type="radio" name="sex" value="male"/>Female<br>
+    <input type="radio" name="sex" value="male"/>other<br>
+    <input type="Submit" value="Submit">
+</fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>ADDRESS</legend>
+        <label for="Address">Address:</label>
+        <input for="type" id="Address" name="Address" autocomplete="off" required><br><br>
+        <label for="District/barangay">Dsitrict/Barangay:</label>
+        <input for="text" id="District/barangay" name="District/barangay" autocomplete="off" required><br><br>
+        <label for="City">City:</label>
+        <input for="text" id="number" name="City" autocomplete="off" required><br><br>
+        <label for="Postal Code">Postal Code:</label>
+        <input for="number" id="Postal Code" name="Postal Code" minlength="3" maxlength="4" autocomplete="off" required><br><br>
+        <label for="Province">Province:</label>
+        <input for="City" id="Province " name="Province" autocomplete="off" required><br><br>
+        <input type="Submit" value="Submit">
+      </form>  
+    </fieldset>
+
+ <form action="/action_page.php">
+    <fieldset>
+    <legend>MEMBERSHIP INFORMATION</legend>
+    <label for="Username">Username:</label> 
+    <input for="text" id="Username" name="Username" autocomplete="off" required><br><br>
+    <label for="pwd">Password:</label>
+    <input type="Password" id="pwd" name="pwd" minlength="4" maxlength="12" autocomplete="off" required><br><br>
+    <label for="Username">Netflix</label>
+    <label for="Username">Subscripstion:</label>
+    <input type="checkbox" id="Subscription" name="Netflix" value="Subscription">
+    <label for="Subscripstion">Premium</label><br>
+    <input type="checkbox" id="Subscription" name="Netflix" value="Subscription">
+    <label for="Subscripstion">Standard</label><br>
+    <input type="checkbox" id="Subscription" name="Netflix" value="Subscription">
+    <label for="Subscripstion">Basic</label><br>
+    <input type="checkbox" id="Subscription" name="Netflix" value="Subscription">
+    <label for="Subscripstion">I don't have Subscripstion</label><br>
+    <input type="Submit" value="Sign Up">
+</form>
+</fieldset>
+
+     
+
+
+
+
+
+
+
+   
+
+
+</body>
+</html>
