@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .container{
+    margin: 20px;
+  }
+  
+  .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card-01{
+    background: #03d2d2;
+    position: relative;
+    flex: 1;
+    max-width: 1024px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-02{
+    background: #50A7FF;
+    position: relative;
+    flex: 1;
+    max-width: 1024px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-03{
+    background: #FF7675;
+    position: relative;
+    flex: 1;
+    max-width: 1024px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-04{
+    background: #0c8d5e;
+    position: relative;
+    flex: 1;
+    max-width: 1024px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width:1024px){
+    .card-01{
+      flex: 100%;
+      max-width: 600px;
+    }
+  
+    .card-02{
+      flex: 100%;
+      max-width: 1024px;
+    }
+  
+    .card-03{
+      flex: 100%;
+      max-width: 1024px;
+    }
+  }
